@@ -1,0 +1,15 @@
+numpy          ==          1.24.3
+nvidia-cuda-runtime-cu12  == 12.5.82
+nvidia-modelopt    ==      0.15.0
+opencv-python     ==       4.10.0.84
+pandas           ==        2.2.2
+pillow         ==          10.3.0
+pip            ==          24.0
+protobuf        ==         3.20.2
+PyYAML         ==           6.0.1
+regex         ==           2024.7.24
+requests        ==         2.32.2
+scikit-learn      ==       1.5.1
+scipy           ==         1.13.1
+seaborn          ==        0.13.2
+tqdm          ==           4.66.4
