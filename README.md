@@ -31,10 +31,5 @@ is promising for the Civil Engineers and Building inspectors as they would be ab
 construction sites without the need to carry a Server. Hence, this work offers convenience in terms of time 
 saving and actual tool to identify cracks that would need to be addressed. 
 
-<div align="left">
-  <video src="https://github.com/user-attachments/assets/7160fcb4-c2e7-4887-8393-8bb963002194" width="200" height="200" />
-</div>
-
-
-
+https://github.com/user-attachments/assets/7160fcb4-c2e7-4887-8393-8bb963002194
 
