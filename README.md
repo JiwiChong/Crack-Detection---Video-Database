@@ -26,6 +26,21 @@ Videos with crack pixels as (X, Y) coordinates:
 <img src="https://github.com/user-attachments/assets/50859104-000f-4c9b-ba51-0f34370ad6d1" width=90% height=85%>
 </div><br />
 
+### Commands
+**_Crack detection with Bounding box in image_** <br />
+python main_image.py 
+--weights ./yolov7/seg/runs/train-seg/custom3/weights/best.pt --conf 0.25 --source ./images/(image name).jpg
+
+**_Crack detection with Bounding box in video_** <br />
+python main_video.py 
+--source ./videos/(video name).mp4 --device cuda:0 --output_video ./yolov7/seg/runs/predict-seg/exp(# of run)/(name of output video).mp4 --exp_num (# of run)
+
+**_Crack pixel extraction as coordinates in image_** <br />
+python main_image_detector.py --source ./images/(input image name).jpg --device cuda:0 --output_image ./yolov7/seg/runs/detect/exp(# of run)/(output image name).jpg --exp_num (# of run)
+
+**_Crack pixel extraction as coordinates in video_** <br />
+python main_video_detector.py --source ./videos/(input video name).mp4 --device cuda:0 --output_video ./yolov7/seg/runs/predict-seg/exp(# of run)/(output video name).mp4 --exp_num (# of run)
+
 The purpose of the script was to deploy the model and coordinates on a Microsoft HoloLens 2 Headset. Such work 
 is promising for the Civil Engineers and Building inspectors as they would be able to inspect cracks in real 
 construction sites without the need to carry a Server. Hence, this work offers convenience in terms of time 
