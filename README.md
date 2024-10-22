@@ -30,3 +30,9 @@ The purpose of the script was to deploy the model and coordinates on a Microsoft
 is promising for the Civil Engineers and Building inspectors as they would be able to inspect cracks in real 
 construction sites without the need to carry a Server. Hence, this work offers convenience in terms of time 
 saving and actual tool to identify cracks that would need to be addressed. 
+
+
+https://github.com/user-attachments/assets/7160fcb4-c2e7-4887-8393-8bb963002194
+
+
+
